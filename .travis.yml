@@ -19,23 +19,7 @@ before_install:
 script: bundle exec rake ci
 
 rvm:
-  - 1.8.7
-  - 1.9.2
-  - 1.9.3
-  - 2.0.0
-  - 2.1
-  - 2.2.4
-  - 2.3.0
-  - ruby-head
-  - rbx-2
-  - jruby
-  - jruby-9.0.4.0
-  - jruby-head
-  - ree
-
-notifications:
-  email: false
-  irc: "irc.freenode.org#rack"
+  - 2.4.1
 
 matrix:
   allow_failures:
